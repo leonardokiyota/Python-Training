@@ -5,3 +5,4 @@ OLD/
 *.sql
 *.pdf
 .idea/
+.directory

@@ -9,3 +9,10 @@
 num1 = int(input("Digite um número: "))
 num2 = int(input("Digite outro número: "))
 
+cont = 0
+total = 0
+while cont < num1:
+    total = num2 + total
+    cont += 1
+
+print("{} x {} é igual a {} ." .format(num1, num2, total))
